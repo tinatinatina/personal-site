@@ -12,7 +12,7 @@ var users = require('./routes/user');
 var app = express();
 
 // view engine setup
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 3030);
 
 
 app.set('views', path.join(__dirname, 'public'));
