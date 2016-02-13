@@ -14,7 +14,6 @@ var app = express();
 // view engine setup
 app.set('port', process.env.PORT || 3000);
 
-
 app.set('views', path.join(__dirname, 'public'));
 console.log(__dirname);
 app.set('view engine', 'html');
